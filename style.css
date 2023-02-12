@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+ 
+ body {
+  font-family: 'Anaheim', sans-serif;
+   line-height: 1.6;
+   background: #FBFBEF;
+ }
+ .container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: white;
+ }
+ main > p {
+  font-size: 20px;
+ }
+ .tituloPrincipal {
+    text-align: center;
+ }
+
+
+ main {
+   margin: 0 auto;
+   width: 960px;
+ }
+form label {
+  display: block;
+}
+.inputPadrao {
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+textarea {
+  display: block;
+  width: 97%;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+.checkbox , .seccaoDeRedacao{
+  margin: 30px 0;
+}
+.inline {
+  display: inline;
+}
+ .inputFile {
+  display: none;
+}
+.botaoAnexarArquivos {
+  background: red;
+  color: white;
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor:pointer;
+}
+
+
+.botaoPrincipal {
+  display: block;
+  margin: 0  auto 20px;
+  width: 30%;
+  background: red;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+  

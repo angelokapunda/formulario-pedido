@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="tituloPrincipal">Pedido de permissão para namorar minha filha</h1>
+
+        <main>
+            <p><strong> Nota: </strong>  o formulário deve ser preencido pelo menos 21 dias antes do pedido</p>
+
+            <form action="post">
+                <fieldset>
+                    <legend><strong>Dados pessoais</strong> </legend>
+                    <label for="nome">Nome  </label>
+                    <input type="text" class="inputPadrao" id="nome" placeholder="Digite o seu nome " required>
+
+                    <label for="endereco">Endereço  </label>
+                    <input type="text" class="inputPadrao" id="endereco" placeholder="Digite o seu Endereço" required>
+
+                    <label for="nome">Email  </label>
+                    <input type="email" class="inputPadrao" id="email" placeholder="Digite o seu Email">
+
+                    <label for="telefone">Número de Telefone  </label>
+                    <input type="text" class="inputPadrao" id="telefone" placeholder="Digite o seu telefone " required>
+
+                    
+                    <p><strong>Género</strong> </p>
+
+                    <label for="macho"><input type="radio" name="genero" id="macho" checked>Masculono </label> 
+                    
+                    <label for="femia"><input type="radio" name="genero" id="femia">Femenino </label>
+                    
+                    <label for="data" class="inline">Data da saída proposta :</label>
+                    <input type="datetime-local" name="data" id="data">
+                </fieldset>
+
+                <fieldset class="checkbox">
+
+                    <legend> <strong>Verifica tudo que se aplica</strong> </legend>
+
+                    <label><input type="checkbox" name="">Tenho tatuagens e/ou piercings</label>
+                    
+                    <label><input type="checkbox" name=""> Eu sou mais de 2 anos mais velho que minha filha</label>
+        
+                    <label><input type="checkbox" name="">Eu possuo uma van de painel ou V8 ute</label>
+        
+                    <label><input type="checkbox" name=""> eu trabalho em tempo integral</label>
+        
+                    <label><input type="checkbox" name="">meus pais são ricos</label>
+        
+                    <label><input type="checkbox" name=""> O encontro está em um local público bem iluminado</label>
+                    
+                </fieldset>
+
+                <div>
+                    <fieldset>
+                        <p> Persuasão política
+                            <select name="PersuasaoPolitica">
+                                <option value="">Asa esquerda</option>
+                                <option value="">Asa direita</option>
+                                <option value="">Conservador</option>
+                                <option value="">Nazista</option>
+                            </select>
+                        </p>
+
+                        <p>Nível de instrução concluído
+                            <select name="nivelInstrucao">
+                                <option value="">Faculdade</option>
+                                <option value="">Universidade</option>
+                                <option value="">Colegial</option>
+                                <option value="">Nenhum</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                </div>
+
+                <div class="seccaoDeRedacao">
+
+                    <fieldset>
+                        <legend><strong>Secção de redação</strong> </legend>
+        
+                        <p> Em 50 palavras ou mais, explique por que você quer namorar minha filha</p>
+                        <textarea name="mensagem-1" cols="30" rows="10"  placeholder="Insira aqui o texto"></textarea>
+        
+                        <p>Faça o upload dos detalhes de contato para 2 referências</p>
+                        <textarea name="mensagem-2" cols="30" rows="10"  placeholder="Insira aqui o texto"></textarea>
+        
+                        <p class="inline">Carregue aqui o Certificado de Liquidação da Polícia, o Extrato Bancário e os Certificados Médicos:</p>
+                        <label for="click"  class="inline botaoAnexarArquivos">Anexar Arquivos</label>
+                        <input type="file" value="Anexar Arquivos" class="inputFile" id="click">
+        
+                    </fieldset>
+
+                </div>
+
+                <input type="submit" value="Enviar Cadastro" class="botaoPrincipal">
+
+
+            </form>
+
+        </main>
+    </div>
+
+
+</body>
+</html>
