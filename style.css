@@ -49,19 +49,18 @@ textarea {
   display: none;
 }
 .botaoAnexarArquivos {
-  background: red;
+  background: rgb(220, 9, 9);
   color: white;
   margin-left: 10px;
   padding: 5px 10px;
   cursor:pointer;
 }
 
-
 .botaoPrincipal {
   display: block;
   margin: 0  auto 20px;
   width: 30%;
-  background: red;
+  background: rgb(235, 8, 8);
   color: white;
   padding: 10px 0;
   border: none;
